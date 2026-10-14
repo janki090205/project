@@ -1,4 +1,4 @@
-```yaml
+
 name: Build and Push to ECR
 
 on:
@@ -38,4 +38,3 @@ jobs:
 
       - name: Push image
         run: docker push public.ecr.aws/a2x7x3i5/lab:latest
-```
